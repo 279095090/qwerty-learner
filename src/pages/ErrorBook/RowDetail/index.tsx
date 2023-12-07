@@ -57,7 +57,7 @@ const RowDetail: React.FC<RowDetailProps> = ({ currentRowDetail, allRecords }) =
   )
 
   useHotkeys(
-    'ctrl+j',
+    '-',
     () => {
       wordPronunciationIconRef.current?.play()
     },
